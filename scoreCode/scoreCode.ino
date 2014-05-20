@@ -43,13 +43,13 @@ void loop() {
   if(btnCount == 0) {
     rainbow(50);
   } else if (btnCount == 1) {
-    solidColor(red);  // RED
+    solidColor(red);
   } else if (btnCount == 2) {
-    solidColor(green);  // GREEN
+    solidColor(green);
   } else if (btnCount == 3) {
-    solidColor(blue);  // BLUE
+    solidColor(blue);
   } else if (btnCount == 4) {
-    solidColor(pink);  // PINK
+    solidColor(pink);
   }
   if(btnChanged) {
     btnChanged = false;
