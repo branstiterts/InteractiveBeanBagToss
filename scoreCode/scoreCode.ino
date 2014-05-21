@@ -138,10 +138,10 @@ void scoreNormal() {
     }
   }
   
-  for(i = circleStart; i < strip.numPixels(); i++) {
-   strip.setPixelColor(i, Color(0,0,0)); 
-  }
-  strip.show();
+//  for(i = circleStart; i < strip.numPixels(); i++) {
+//   strip.setPixelColor(i, Color(0,0,0)); 
+//  }
+//  strip.show();
   
   // Finish scoring animation by creating a lock in effect
   // Starts at top of the board in the middle and seperates a pixel at a time
