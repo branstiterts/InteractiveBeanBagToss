@@ -11,7 +11,7 @@ LPD6803 strip = LPD6803(36, dataPin, clockPin);
 
 volatile int circleStart = 31;
 
-const long initialScoreTime = 5000;
+const long initialScoreTime = 10000;
 
 const int minimumDelay = 40;
 
