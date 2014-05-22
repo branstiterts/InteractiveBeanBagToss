@@ -193,7 +193,7 @@ void interruptBtn() {
 void loadingLights() {
   int i;
   unsigned long start = millis();
-  while(millis() - start < 10000) {  // Run this for 1 minute
+  while(millis() - start < 60000) {  // Run this for 1 minute
     // LED animation to do a red pixel chase, 3 pixels at a time
     for(i = circleStart - 3; i >= 0; i -= 3) {
        int a = millis();
